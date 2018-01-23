@@ -200,7 +200,7 @@ void Binomial_Heap::Traverse(){
 
 void Binomial_Heap::InsertArbitrary(const int key){
     Binomial_Heap* H_inserted = new Binomial_Heap();
-    BTNode* inserted_node = new BTNode(key, 0);
+    BTNode* inserted_node = new BTNode(key);
     H_inserted->root_list_size += 1;
     H_inserted->head_root_list = inserted_node;
     
