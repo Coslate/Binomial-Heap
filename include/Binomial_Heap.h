@@ -33,7 +33,7 @@ class Binomial_Heap{
         void UpdateMinPtr();
 
     public : 
-        Binomial_Heap() : root_list_size(0), head_root_list(NULL){};
+        Binomial_Heap() : root_list_size(0), head_root_list(NULL), min_pointer(NULL){};
         ~Binomial_Heap();
        
         bool    Delete(BTNode* const x);
