@@ -450,15 +450,6 @@ bool Binomial_Heap::DecreaseKeySatellite(BTNode* const x, const int changed_key)
     return true;
 }
 
-int Binomial_Heap::FindMin(){
-    if(min_pointer != NULL){
-        return min_pointer->key;
-    }else{
-        std::cout<<"Error : The Binomial_Heap is empty."<<std::endl;
-        return -1;
-    }
-}
-
 bool Binomial_Heap::Delete(BTNode* const x){
     if(DecreaseKey(x, -INT_MAX)){
         ExtractMin();
