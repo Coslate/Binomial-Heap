@@ -13,6 +13,7 @@ Binomial_Heap	./include/Binomial_Heap.h	/^class Binomial_Heap{$/;"	c
 CC	./Makefile	/^CC = g++$/;"	m
 CFLAGS	./Makefile	/^CFLAGS = -g -Wall -O3 $/;"	m
 COMPILE_FLAGS	./Makefile	/^COMPILE_FLAGS = -c$/;"	m
+CTAGS_UTIL	./Makefile	/^CTAGS_UTIL = \/usr\/local\/bin\/$/;"	m
 DecreaseKey	./Binomial_Heap.cpp	/^bool Binomial_Heap::DecreaseKey(BTNode* const x, const int changed_key){$/;"	f	class:Binomial_Heap
 DecreaseKeySatellite	./Binomial_Heap.cpp	/^bool Binomial_Heap::DecreaseKeySatellite(BTNode* const x, const int changed_key){$/;"	f	class:Binomial_Heap
 Delete	./Binomial_Heap.cpp	/^bool Binomial_Heap::Delete(BTNode* const x){$/;"	f	class:Binomial_Heap
